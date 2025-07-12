@@ -1,0 +1,102 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Node.js (backend)
+node_modules/
+.env
+.env.local
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Frontend (React/Vite/Cra)
+client/node_modules/
+client/.env
+client/.env.local
+client/build/
+client/dist/
+client/coverage/
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/*.log
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# PM2 logs (если используется)
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: Docker
+docker-compose.override.yml
+.docker/
+
+# Optional: SQLite / DB dumps
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sql
+*.dump
+
+# Optional: Next.js (если используешь)
+.next/
+out/
+
+# Optional: Testing
+jest-test-results.json
+test-results/
+
+# Optional: Coverage tools
+.nyc_output/
+coverage/
+
+# Optional: Lint cache
+.eslintcache
+
+# Optional: Parcel cache
+.cache/
+.parcel-cache/
+
