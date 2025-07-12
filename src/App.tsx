@@ -8,6 +8,7 @@ import Favorites from './pages/Favorites';
 import Footer from './components/Footer';
 import { Provider } from 'react-redux';
 import { store } from './store';
+import Aruna from './components/Aruna';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               <Route path="/favorites" element={<Favorites />} />
             </Routes>
           </main>
+          <Aruna/>
           <Footer />
         </div>
       </Router>
